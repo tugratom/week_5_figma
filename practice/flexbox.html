@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex_container {
+            display: flex;
+            background-color: cadetblue;
+        }
+
+        .flex_container_main {
+            display: flex;
+            flex-direction: row;
+            align-content: stretch;
+            align-items: baseline;
+        }
+
+        .side {
+            height: 200px;
+            width: 500px;
+            background-color: darkseagreen;
+            padding: 10px;
+        }
+
+        .main {
+            height: 200px;
+            width: 800px;
+            background-color: burlywood;
+            padding: 10px;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 30px;
+
+        }
+
+        .footer_container {
+            display: flex;
+            flex-direction: row;
+            gap: 250px;
+            background-color: cadetblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="flex_container">Шапка страницы</div>
+    </header>
+    <main>
+        <div class="flex_container_main">
+            <div class="main">Основная часть
+                <div class="cards">
+                    <div class="card" style="width: 45%; background-color: beige;">Еще_1</div>
+                    <div class="card" style="width: 45%;  background-color: beige;">Еще_2</div>
+                    <div class="card_3" style="width: 100%; background-color: beige;">Еще_3</div>
+                </div>
+            </div>
+            <div class="side">Боковая часть</div>
+        </div>
+        <footer>
+            <div class="footer_container">
+                <section>Секция футера 1</section>
+                <section>Секция футера 2</section>
+                <section>Секция футера 3</section>
+                <section>Секция футера 4</section>
+            </div>
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
