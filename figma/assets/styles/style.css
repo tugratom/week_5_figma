@@ -1,0 +1,95 @@
+.header {
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    margin-top: 42px;
+    margin-left: 81px;
+}
+
+.title_container {
+    display: flex;
+    flex-direction: row;
+    gap: 79px;
+}
+
+.title_nav {
+    display: flex;
+    flex-direction: row;
+    gap: 33px;
+    margin-top: 52px;
+}
+
+
+.rightpic {
+    float: right;
+    margin: 0 0 5px 5px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-evenly text-decoration: none;
+    color: black;
+}
+
+#st,
+#com,
+#sound,
+#blog {
+    text-decoration: none;
+    color: black;
+}
+
+#st:hover,
+#com:hover,
+#sound:hover,
+#blog:hover {
+    text-decoration: underline;
+}
+
+#st:active,
+#com:active,
+#sound:active,
+#blog:active {
+    color: aqua;
+}
+
+
+h1 {
+    margin-top: 200px;
+}
+
+button:focus {
+    color: aqua;
+}
+
+button {
+    background: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(2.5px);
+    border-radius: 105px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    margin-left: 150%;
+    margin-top: 52px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 171%;
+    color: #595959
+}
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 81px;
+}
